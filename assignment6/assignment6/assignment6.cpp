@@ -3,10 +3,10 @@
 
 int main(void)
 {
-	char something[32] = "Attempt at conflict";
+	char something[32] = "Version control for SEF";
+	char something[32] = "Conflict attempt";
 
 	printf("%s", something);
-
-	return 1;
-}
+	
+	return 0;
 }
