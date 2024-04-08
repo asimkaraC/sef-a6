@@ -3,17 +3,10 @@
 
 int main(void)
 {
-	char something[32] = "RCS for SEF";
+	char something[32] = "Attempt at conflict";
 
 	printf("%s", something);
-	bool check = false;
 
-	int size = strlen(something);
-
-	if (size != NULL)
-	{
-		printf("%s", something);
-	}
-
-	return 0;
+	return 1;
+}
 }
